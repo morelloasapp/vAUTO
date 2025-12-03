@@ -20,7 +20,7 @@ export default function Hero() {
           Vargas Auto Parts
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8">
-          Piese Auto Premium - Calitate Garantată
+          Piese Din Dezmembrari - 100% originale
         </p>
         
         <div className="max-w-2xl mx-auto mb-8">
@@ -28,7 +28,7 @@ export default function Hero() {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/70" />
             <Input
               type="search"
-              placeholder="Caută după marcă, model sau tip piesă..."
+              placeholder="Caută după marcă, model sau cod piesă..."
               className="pl-12 h-14 text-lg bg-white/10 backdrop-blur-md border-white/20 text-white placeholder:text-white/60"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -40,7 +40,7 @@ export default function Hero() {
         <div className="flex flex-wrap items-center justify-center gap-6 text-white/90">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-primary rounded-full" />
-            <span className="text-sm md:text-base">10,000+ piese disponibile</span>
+            <span className="text-sm md:text-base">150,000+ piese disponibile</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-primary rounded-full" />
@@ -48,7 +48,7 @@ export default function Hero() {
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-primary rounded-full" />
-            <span className="text-sm md:text-base">Prețuri competitive</span>
+            <span className="text-sm md:text-base">Piese 100% originale</span>
           </div>
         </div>
       </div>
