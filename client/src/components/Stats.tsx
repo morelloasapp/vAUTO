@@ -3,7 +3,7 @@ import { Package, Users, MapPin, Star } from "lucide-react";
 const stats = [
   {
     icon: Package,
-    value: "10,000+",
+    value: "200,000+",
     label: "Piese în Stoc",
   },
   {
