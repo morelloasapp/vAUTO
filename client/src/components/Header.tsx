@@ -125,7 +125,7 @@ export default function Header() {
             </Link>
             <Link href="/category/uleiuri">
               <button className="text-sm whitespace-nowrap hover-elevate active-elevate-2 px-3 py-1.5 rounded">
-                Uleiuri & Lichide
+               Iluminare Ambientala
               </button>
             </Link>
             <Link href="/category/electric">
