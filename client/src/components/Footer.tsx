@@ -31,7 +31,7 @@ export default function Footer() {
               PIESE<span className="text-foreground">AUTO</span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
-              Piese auto de calitate, importate direct din Allegro. Prețuri competitive și livrare rapidă.
+              Piese auto de calitate, provenite din dezemembrări. Comandă acum cu livrare rapidă.
             </p>
           </div>
 
@@ -86,7 +86,7 @@ export default function Footer() {
 
         <div className="border-t pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-            <p>© 2025 PieseAuto. Toate drepturile rezervate.</p>
+            <p>© 2025 VargasAuto. Toate drepturile rezervate.</p>
             <p className="text-xs">
               Date produse importate din Allegro.pl
             </p>
