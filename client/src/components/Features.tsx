@@ -4,8 +4,8 @@ import { Shield, Truck, BadgeCheck, Headphones, Clock, Award } from "lucide-reac
 const features = [
   {
     icon: Shield,
-    title: "Garanție 24 Luni",
-    description: "Toate produsele beneficiază de garanție extinsă",
+    title: "Retur 14 zile",
+    description: "Nu esti multumit? Ai 14 zile dreptul la retur",
   },
   {
     icon: Truck,
@@ -15,7 +15,7 @@ const features = [
   {
     icon: BadgeCheck,
     title: "Piese Originale",
-    description: "100% piese originale și certificate",
+    description: "100% piese originale provenite din dezmembrari",
   },
   {
     icon: Headphones,
@@ -25,12 +25,12 @@ const features = [
   {
     icon: Clock,
     title: "Stoc Permanent",
-    description: "Peste 10,000 de piese în stoc permanent",
+    description: "Peste 200,000 de piese în stoc permanent",
   },
   {
     icon: Award,
-    title: "Prețuri Competitive",
-    description: "Cele mai bune prețuri de pe piață",
+    title: "Gama variata de piese auto",
+    description: "La noi gasesti una dintre cele mai mari varietati de piese auto",
   },
 ];
 
