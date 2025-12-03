@@ -7,7 +7,7 @@ const mockProducts = [
   {
     id: "1",
     title: "ASTON MARTIN DBX 20- ARIPĂ FAȚĂ STÂNGĂ JOS - ",
-    price: 2.395,54:
+    price: 2395,
     image: "https://www.blotniki.pl/15475-large_default/aston-martin-dbx-20-blotnik-przedni-lewy-dolny-14280669435.webp",
     category: "Caroserie",
     compatibility: "Aston Martin DBX 20",
@@ -18,9 +18,9 @@ const mockProducts = [
     id: "2",
     title: "ARIPA FATA STANGA MERCEDES CLK W209 W 209",
     price: 600,
-    image: "https://www.blotniki.pl/1375-large_default/mercedes-clk-w209-w-209-blotnik-przedni-lewy.webp,
+    image: "https://www.blotniki.pl/1375-large_default/mercedes-clk-w209-w-209-blotnik-przedni-lewy.webp",
     category: "Caroserie",
-    compatibility: "MERCEDES CLK W209,
+    compatibility: "MERCEDES CLK W209",
     stock: "available" as const,
   },
   {
