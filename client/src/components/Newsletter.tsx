@@ -32,7 +32,7 @@ export default function Newsletter() {
               Abonează-te la Newsletter
             </h2>
             <p className="text-muted-foreground mb-8">
-              Primește oferte exclusive, reduceri speciale și noutăți despre piese auto direct în inbox
+              Fii la curent cu stocul de produse! Aboneaza-te la newsletter!
             </p>
 
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
