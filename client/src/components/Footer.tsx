@@ -88,7 +88,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
             <p>© 2025 VargasAuto. Toate drepturile rezervate.</p>
             <p className="text-xs">
-              Date produse importate din Allegro.pl
+              Piese premium, calitate garantata.
             </p>
           </div>
         </div>
