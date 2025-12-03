@@ -5,48 +5,34 @@ import { Label } from "@/components/ui/label";
 import { useState } from "react";
 import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
-import { useMutation } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
 import logoUrl from "@assets/Untitled design_1763621399342.png";
 
 export default function AdminLogin() {
   const [, setLocation] = useLocation();
   const { toast } = useToast();
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const loginMutation = useMutation({
-    mutationFn: async (credentials: { username: string; password: string }) => {
-      const response = await apiRequest("POST", "/api/auth/login", credentials);
-      return await response.json();
-    },
-    onSuccess: (data: any) => {
-      if (data.isAdmin) {
-        toast({
-          title: "Autentificare reușită",
-          description: "Bine ai venit în panoul de administrare!",
-        });
-        setLocation("/admin/dashboard");
-      } else {
-        toast({
-          title: "Acces refuzat",
-          description: "Ai nevoie de drepturi de administrator",
-          variant: "destructive",
-        });
-      }
-    },
-    onError: () => {
-      toast({
-        title: "Eroare autentificare",
-        description: "Username sau parolă incorectă",
-        variant: "destructive",
-      });
-    },
-  });
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    loginMutation.mutate({ username, password });
+
+    // 🔐 LOGIN DIRECT fără backend
+    if (username === "vargamirel1" && password === "Vargasauto1@") {
+      toast({
+        title: "Autentificare reușită",
+        description: "Bine ai venit în panoul de administrare!",
+      });
+      setLocation("/admin/dashboard");
+      return;
+    }
+
+    // ❌ Dacă parola/username-ul sunt greșite
+    toast({
+      title: "Eroare autentificare",
+      description: "Username sau parolă incorectă",
+      variant: "destructive",
+    });
   };
 
   return (
@@ -73,7 +59,7 @@ export default function AdminLogin() {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              placeholder="vargaadmin1"
+              placeholder="vargamirel1"
               required
               data-testid="input-username"
             />
@@ -95,10 +81,9 @@ export default function AdminLogin() {
           <Button
             type="submit"
             className="w-full"
-            disabled={loginMutation.isPending}
             data-testid="button-login"
           >
-            {loginMutation.isPending ? "Se autentifică..." : "Autentifică-te"}
+            Autentifică-te
           </Button>
         </form>
       </Card>
