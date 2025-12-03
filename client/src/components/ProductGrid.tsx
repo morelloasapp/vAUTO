@@ -7,7 +7,7 @@ const mockProducts = [
   {
     id: "1",
     title: "ASTON MARTIN DBX 20- ARIPĂ FAȚĂ STÂNGĂ JOS - ",
-    price: 2.395,54,
+    price: 2.395,54:
     image: "https://www.blotniki.pl/15475-large_default/aston-martin-dbx-20-blotnik-przedni-lewy-dolny-14280669435.webp",
     category: "Caroserie",
     compatibility: "Aston Martin DBX 20",
