@@ -94,7 +94,7 @@ export default function ProductCard({
             data-testid={`button-view-allegro-${id}`}
           >
             <ExternalLink className="w-4 h-4 mr-2" />
-            Vezi pe Allegro
+            Comanda acum
           </Button>
         )}
       </div>
