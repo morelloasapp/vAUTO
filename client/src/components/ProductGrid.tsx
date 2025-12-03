@@ -6,21 +6,21 @@ import { useState } from "react";
 const mockProducts = [
   {
     id: "1",
-    title: "Set Placute Frana Fata Bosch Premium",
-    price: 245.99,
-    image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=400&q=80",
-    category: "Frânare",
-    compatibility: "VW Golf VII, Audi A3",
+    title: "ASTON MARTIN DBX 20- ARIPĂ FAȚĂ STÂNGĂ JOS - ",
+    price: 2.395,54 RON,
+    image: "https://www.blotniki.pl/15475-large_default/aston-martin-dbx-20-blotnik-przedni-lewy-dolny-14280669435.webp",
+    category: "Caroserie",
+    compatibility: "Aston Martin DBX 20",
     badge: "Redus" as const,
     stock: "available" as const,
   },
   {
     id: "2",
-    title: "Filtru Ulei Mann W 712/75",
-    price: 45.50,
-    image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=400&q=80",
-    category: "Motor",
-    compatibility: "BMW E90, E91, E92",
+    title: "ARIPA FATA STANGA MERCEDES CLK W209 W 209",
+    price: 600 RON,
+    image: "https://www.blotniki.pl/1375-large_default/mercedes-clk-w209-w-209-blotnik-przedni-lewy.webp,
+    category: "Caroserie",
+    compatibility: "MERCEDES CLK W209,
     stock: "available" as const,
   },
   {
@@ -35,11 +35,11 @@ const mockProducts = [
   },
   {
     id: "4",
-    title: "Far Stanga LED Hella Original",
-    price: 1250.00,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+    title: "JAGUAR F-TYPE ARIPA STÂNGĂ FAȚĂ",
+    price: 2285.00 RON,
+    image: "https://www.blotniki.pl/32110-large_default/jaguar-f-type-blotnik-lewy-przedni-17288977628.webp",
     category: "Caroserie",
-    compatibility: "VW Passat B8",
+    compatibility: "Jaguar F-TYPE",
     stock: "available" as const,
   },
   {
@@ -93,7 +93,7 @@ export default function ProductGrid() {
               Cele Mai Căutate Piese
             </h2>
             <p className="text-muted-foreground">
-              Import direct din Allegro - Prețuri actualizate
+              Piese auto provenite din dezmembrari 100% originale
             </p>
           </div>
         </div>
